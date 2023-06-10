@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>JSON PARSE</title>
+</head>
+<body>
+    <h2>Creating an Object from a JSON String</h2>
+
+<p id="demo"></p>
+
+    <script>
+       const txt = '{"name":"Maha", "age":25, "city":"New York"}'
+const obj = JSON.parse(txt);
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+
+var str = '{"name":"Maha", "age":25}'
+var obj1 = JSON.parse(str);
+document.write("<br>"+obj1.name + " age is " + obj1.age)
+
+//Stringify the object
+const obj2 = {name: "John", age: 30, city: "New York"};
+const myJSON = JSON.stringify(obj2);
+document.write(myJSON)
+    </script>
+</body>
+</html>

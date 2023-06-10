@@ -1,0 +1,37 @@
+JSON.parse()
+JSON.parse() takes a JSON string and transforms it into a JavaScript object.
+
+let userStr = '{"name":"Sammy","email":"sammy@example.com","plan":"Pro"}';
+
+let userObj = JSON.parse(userStr);
+
+console.log(userObj);
+
+Executing this code will produce the following output:
+
+Output
+{name: 'Sammy', email: 'sammy@example.com', plan: 'Pro'}
+  email: "sammy@example.com"
+  name: "Sammy"
+  plan: "Pro"
+
+  JSON.stringify() takes a JavaScript object and transforms it into a JSON string.
+
+let userObj = {
+  name: "Sammy",
+  email: "sammy@example.com",
+  plan: "Pro"
+};
+
+let userStr = JSON.stringify(userObj);
+
+console.log(userStr);
+
+
+Output
+{"name":"Sammy","email":"sammy@example.com","plan":"Pro"}
+
+https://www.w3schools.com/js/js_json_stringify.asp-reference
+
+we can convert JSON string to JSO string by using JSON.parse() function
+convert JSO to JSON string by using JSON.Stringify() function

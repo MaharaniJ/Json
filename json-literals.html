@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // JS formate        
+        var user = new Object()
+        user.name="Maha";
+        user.age=25;
+        document.write("My name is "+user.name+" and age is "+user.age)
+
+        //JSO literals
+        var user = {name: "Maha", age:25}
+        document.write("<br>My name is "+user.name+ " and age is "+user.age)
+        //JSON
+        var user = {
+            "name": "Maha",
+            "age": 25
+        }
+        
+   //Jso literals feature
+   var user = {
+    firstname: "Maha",
+    lastname: "Rani",
+    age:25,
+    fullname:function(){
+        return (this.firstname+ " "+ this.lastname)
+   }  
+}
+document.write(user.fullname())
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+Javascript object notation:
+it is format to store and exchange data.
+JSON is subset if Javascript object literal
+The filename extension is .json
+JSON internet Media type is application/json
+light weight easy to transfare
+
+Advantages:
+JSON is easy to read and write
+It is a light weight text-based interchange format
+JSON is language independent
+We can use in all popular programming languages
+Provide support for all browsers
+
+rules:
+data is written inside the culy brace{json data}
+data is represented a key value pair{key:value}
+key should be enclosed in double quotes{"name":"value"}
+key and value should be separatedby semicolon(:)
+comma is used ro seperate data{"name":"Ram"}
+square brackets hold arrays {"marks":[98,96,90,87]}
+curly braces hold objects 
+
+Datatypes-6:
+Number
+String
+Boolean
+array
+Object
+null
+{
+    "name":"ram",
+    "age":23,
+    "gender":"male",
+    "ismarried":false,
+    "marks":[98,96,90,87],
+    "average":74.98,
+    "hobbies":null,
+    "address:{
+        "street":"trichy road",
+        "ciry":"coimbatore",
+        "pincode":636007
+    }
+}

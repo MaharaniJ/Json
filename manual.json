@@ -1,0 +1,62 @@
+[
+    {
+        "model":"Redmi 12C",
+        "brand":"Redmi",
+        "mrp":13999.0,
+        "price":8799,
+        "image":"https://m.media-amazon.com/images/I/41Mb05aS5fL._SX300_SY300_QL70_FMwebp_.jpg",
+        "color":"Royalblue",
+        "ram":"4GB",
+        "storage":"64GB",
+        "camera":"48MP",
+        "isAvailabe":"true"
+    },
+    {
+        "model":"realme narzo",
+        "brand":"Realme",
+        "mrp":14999.0,
+        "price":12999,
+        "image":"https://m.media-amazon.com/images/I/71Ftzmh3XWL._SX679_.jpg",
+        "color":"Prime Blue",
+        "ram":"6GB",
+        "storage":"128GB",
+        "camera":"64MP",
+        "isAvailabe":"true"
+    },
+    {
+        "model":"OnePlus Nord CE Lite 5G",
+        "brand":"OnePlus",
+        "mrp":19999.0,
+        "price":17990,
+        "image":"https://m.media-amazon.com/images/I/71V--WZVUIL._SX679_.jpg",
+        "color":"Black Dusk",
+        "ram":"6GB",
+        "storage":"128GB",
+        "camera":"84MP",
+        "isAvailabe":"true"
+    },
+    {
+        "model":"Samsung Galaxy M04 ",
+        "brand":"Samsung",
+        "mrp":11999.0,
+        "price":7299,
+        "image":"https://m.media-amazon.com/images/I/814ePfNubRL._SX679_.jpg",
+        "color":"Light Green",
+        "ram":"4GB",
+        "storage":"64GB",
+        "camera":"13MP Dual Camera",
+        "isAvailabe":"true"
+    },
+    {
+        "model":"Apple iPhone 13 Mini",
+        "brand":"Apple",
+        "mrp":94999.0,
+        "price":85000,
+        "image":"https://m.media-amazon.com/images/I/71X6mnUDSzL._SX679_.jpg",
+        "color":"Blue",
+        "ram":"12GB",
+        "storage":"512GB",
+        "camera":"24MP",
+        "isAvailabe":"true"
+    }
+]

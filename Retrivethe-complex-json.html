@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to retrive the complex JSON</title>
+</head>
+<body>
+    <script>
+      var str = '{"name":"Maha","gender":"Female","age":25,"isMarried":false,"marks":[{"English":98,"Description":"very good"},{"Maths":87,"Description":"very good"},{"Science":93,"Description":"very good"},{"Geography":39,"Description":"very bad"}],"hobbies":null,"address":{"street":"trichy road","city":"coimbatore"}}';
+var o = JSON.parse(str);
+
+document.write("<br> Name:" + o.name);
+document.write("<br> Address:" + o.address.street);
+document.write("<br> English:" + o.marks[0].English);
+document.write("<br> Description:" + o.marks[0].Description);
+document.write("<br> Hobbies:" + o.hobbies);
+
+    </script>
+</body>
+</html>
