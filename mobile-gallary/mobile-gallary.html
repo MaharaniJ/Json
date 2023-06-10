@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-   
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <h3>Mobile Gallery</h3>
+    <div id="show"></div> <!-- Ensure you have a div with ID "show" here -->
+    
     <script>
-        const data = [
+        const mobileData = [
+        
     {
         "model":"Redmi 12C",
         "brand":"Redmi",
@@ -71,10 +74,27 @@
         "isAvailabe":"true"
     }
 ]
-    </script> 
-    <h3>Mobile Gallery</h3>
-    <div id="show">
         
-    </div>
+
+        var tableRows = '';
+        for (var i = 0; i < mobileData.length; i++) {
+            tableRows += '<table>\
+                <tr><th>Model</th><td>' + mobileData[i]["model"] + '</td> <td rowspan=9><img src='+mobileData[i]["image"]+' class=img></td></tr>\
+                <tr><th>Brand</th><td>' + mobileData[i]["brand"] + '</td></tr>\
+                <tr><th>MRP</th><td>' + mobileData[i]["mrp"] + '</td></tr>\
+                <tr><th>Price</th><td>' + mobileData[i]["price"] + '</td></tr>\
+                <tr><th>color</th><td>' + mobileData[i]["color"] + '</td></tr>\
+                <tr><th>RAM</th><td>' + mobileData[i]["ram"] + '</td></tr>\
+                <tr><th>Storage</th><td>' + mobileData[i]["storage"] + '</td></tr>\
+                <tr><th>Camera</th><td>' + mobileData[i]["camera"] + '</td></tr>\
+                <tr><th>Is Available</th><td>' + mobileData[i]["isAvailable"] + '</td></tr>\
+            </table>';
+        }
+
+        var showElement = document.getElementById('show');
+        if (showElement) {
+            showElement.innerHTML = tableRows;
+        }
+    </script>
 </body>
 </html>
